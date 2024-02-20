@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cccce5;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #00203f;
+    color: #fff;
+    padding: 3px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Features Section Styles */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.feature {
+    flex-basis: 30%;
+    padding: 20px;
+    background-color: #8584af;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-20px);
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00203f;
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .hero h2 {
+        font-size: 36px;
+    }
+    .hero p {
+        font-size: 20px;
+    }
+    .cta-button {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+    .features {
+        flex-wrap: wrap;
+    }
+    .feature {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+    }
+}
+h3{
+    color: black;
+}
+*{
+    text-align: center;
+    word-spacing: 8px;
+}
+.note{
+    float: right;
+    margin-right: 25px;
+}
